@@ -1,0 +1,16 @@
+# 忽略 node_modules 文件夹（第三方依赖）
+node_modules/
+
+# 忽略环境变量文件（可能包含密钥）
+.env
+.env.local
+
+# 忽略日志文件
+logs/
+*.log
+
+# 忽略 IDE 配置文件（如 WebStorm、VS Code 的本地配置）
+.idea/
+.vscode/
+*.swp
+*.swo
