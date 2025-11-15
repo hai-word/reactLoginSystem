@@ -1,0 +1,198 @@
+/* src/pages/Login/Login.css - 登录页面样式 */
+.login-layout {
+    min-height: 100vh;
+    background-color: #f5f7fa;
+}
+
+/* 页头样式 */
+.login-header {
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    padding: 0 24px;
+    height: 64px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #165DFF;
+    line-height: 64px;
+}
+
+/* 内容区样式 */
+.login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 40px 24px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* 登录卡片样式 */
+.login-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: none;
+    overflow: hidden;
+}
+
+.login-header-content {
+    text-align: center;
+    padding: 32px 24px 16px;
+}
+
+.login-title {
+    color: #1D2129;
+    margin-bottom: 8px !important;
+}
+
+.login-subtitle {
+    color: #86909C;
+    margin-bottom: 0 !important;
+}
+
+/* 错误提示样式 */
+.login-error {
+    margin: 0 24px 16px;
+}
+
+/* 表单样式 */
+.login-form {
+    padding: 0 24px 24px;
+}
+
+.form-item {
+    margin-bottom: 16px;
+}
+
+.login-input {
+    height: 44px;
+    border-radius: 6px;
+}
+
+.input-icon {
+    color: #86909C;
+}
+
+/* 按钮样式 */
+.login-button {
+    height: 44px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+.github-login-button {
+    height: 44px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #24292e;
+    color: white;
+    border: none;
+}
+
+.github-login-button:hover,
+.github-login-button:focus {
+    background-color: #30363d;
+    color: white;
+}
+
+.github-icon {
+    margin-right: 8px;
+}
+
+/* 分隔线样式 */
+.divider-container {
+    margin: 16px 0;
+}
+
+.login-divider {
+    margin: 0 !important;
+}
+
+.divider-text {
+    color: #86909C;
+    font-size: 14px;
+}
+
+/* 辅助链接样式 */
+.login-helper {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.helper-links {
+    justify-content: center;
+}
+
+.helper-link {
+    color: #165DFF;
+    font-size: 14px;
+}
+
+.helper-link:hover {
+    color: #0E42D2;
+    text-decoration: underline;
+}
+
+/* 页脚样式 */
+.login-footer {
+    background-color: transparent;
+    padding: 24px;
+}
+
+.footer-content {
+    text-align: center;
+    color: #86909C;
+    font-size: 14px;
+}
+
+.footer-links {
+    margin-top: 8px;
+}
+
+.footer-link {
+    color: #86909C;
+    margin: 0 8px;
+}
+
+.footer-link:hover {
+    color: #165DFF;
+}
+
+/* 响应式样式 - 移动端适配 */
+@media (max-width: 768px) {
+    .login-content {
+        padding: 24px 16px;
+    }
+
+    .login-header-content {
+        padding: 24px 16px 8px;
+    }
+
+    .login-title {
+        font-size: 20px !important;
+    }
+
+    .login-subtitle {
+        font-size: 14px !important;
+    }
+
+    .login-form {
+        padding: 0 16px 16px;
+    }
+
+    .helper-links {
+        flex-direction: column;
+        gap: 8px !important;
+    }
+
+    .footer-content {
+        font-size: 12px;
+    }
+}
