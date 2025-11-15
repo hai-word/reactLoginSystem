@@ -67,7 +67,6 @@ console.log(res.data);
             <Content style={{ padding: '40px 24px', maxWidth: '1200px', margin: '0 auto', width: '100%' }}>
                 <Card style={{ borderRadius: '12px', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)' }}>
                     <Title level={2} style={{ marginBottom: '24px', color: '#1D2129' }}>欢迎回来！</Title>
-
                     {/* 加载中状态 */}
                     {loading && (
                         <div style={{ textAlign: 'center', padding: '40px 0' }}>
